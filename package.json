@@ -1,6 +1,6 @@
 {
   "name": "node-newrelic-fwd-slack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Forward a NewRelic webhook on to your Slack webhook",
   "main": "main.js",
   "scripts": {
