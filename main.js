@@ -1,5 +1,4 @@
 var express = require('express')
-	,request = require('request')
 	,handlers = require('./NewRelicWebhooks');
 
 var app = express();
