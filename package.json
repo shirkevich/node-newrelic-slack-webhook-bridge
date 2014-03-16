@@ -1,0 +1,29 @@
+{
+  "name": "node-newrelic-fwd-slack",
+  "version": "0.0.0",
+  "description": "Forward a NewRelic webhook on to your Slack webhook",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atuttle/node-newrelic-fwd-slack.git"
+  },
+  "keywords": [
+    "newrelic",
+    "slack",
+    "webhook"
+  ],
+  "author": "Adam Tuttle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atuttle/node-newrelic-fwd-slack/issues"
+  },
+  "homepage": "https://github.com/atuttle/node-newrelic-fwd-slack",
+  "dependencies": {
+    "express": "^3.4.8",
+    "node-slack": "0.0.3"
+  }
+}

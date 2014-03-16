@@ -1,0 +1,8 @@
+{
+	"slack": {
+		"domain": "example"
+		,"token": "fdsafdsafdsafdsafdsafdsafdsa"
+		,"room": "#devops"
+		,"sender": "NewRelic"
+	}
+}
