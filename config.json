@@ -1,7 +1,0 @@
-{
-	"slack": {
-		"hook_url": "https://hooks.slack.com/services/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",
-		"room": "#site-pulse",
-		"sender": "NewRelic"
-	}
-}
