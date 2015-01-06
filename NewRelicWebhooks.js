@@ -41,9 +41,9 @@ function prepareSlackMessage(body){
 		var alert = JSON.parse(body.alert);
 		console.log(alert);
 
-		var msg = '[' + body.application_name + '][' + body.severity +
-		'] <' + body.alert_url + '|' + body.message +
-		'> -- ' + body.long_description;
+		var msg = '[' + alert.application_name + '][' + alert.severity +
+		'] <' + alert.alert_url + '|' + alert.message +
+		'> -- ' + alert.long_description;
 
 		return msg;
 	}
@@ -53,9 +53,9 @@ function prepareSlackMessage(body){
 		var deployment = JSON.parse(body.deployment);
 		console.log(deployment);
 
-		var msg = '[' + body.application_name + '][' + body.created_at +
-		'] <' + body.deployment_url + '|' + body.deployed_by +
-		'> -- ' + body.description;
+		var msg = '[' + deployment.application_name + '][' + deployment.created_at +
+		'] <' + deployment.deployment_url + '|' + deployment.deployed_by +
+		'> -- ' + deployment.description;
 
 		return msg;
 	}
