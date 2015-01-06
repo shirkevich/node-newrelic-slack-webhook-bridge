@@ -1,7 +1,7 @@
 {
-  "name": "node-newrelic-fwd-slack",
+  "name": "node-newrelic-slack-webhook-bridge",
   "version": "0.0.1",
-  "description": "Forward a NewRelic webhook on to your Slack webhook",
+  "description": "Provide a bridge between a NewRelic webhook and a Slack webhook",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/atuttle/node-newrelic-fwd-slack.git"
+    "url": "git://github.com/jamiesoncj/node-newrelic-slack-webhook-bridge.git"
   },
   "keywords": [
     "newrelic",
     "slack",
     "webhook"
   ],
-  "author": "Adam Tuttle",
+  "author": "Chris Jamieson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atuttle/node-newrelic-fwd-slack/issues"
+    "url": "https://github.com/jamiesoncj/node-newrelic-slack-webhook-bridge/issues"
   },
-  "homepage": "https://github.com/atuttle/node-newrelic-fwd-slack",
+  "homepage": "https://github.com/jamiesoncj/node-newrelic-slack-webhook-bridge",
   "dependencies": {
     "express": "^3.4.8",
     "deferred": "0.7.1",
