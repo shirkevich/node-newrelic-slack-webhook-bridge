@@ -1,8 +1,7 @@
 {
 	"slack": {
-		"domain": "example"
-		,"token": "fdsafdsafdsafdsafdsafdsafdsa"
-		,"room": "#devops"
-		,"sender": "NewRelic"
+		"hook_url": "https://hooks.slack.com/services/STRING12345/STRING12345/StRiNG12345",
+		"room": "#site-notifications",
+		"sender": "NewRelic"
 	}
 }
