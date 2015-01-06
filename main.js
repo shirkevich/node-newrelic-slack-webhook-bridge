@@ -10,6 +10,7 @@ app.post('/newrelic/hook', function(req, resp){
 	console.log('received a req: ');
 	console.log(req.body);
 	req.on('data', function(data){
+		console.log('passing the request to POST handler (on.data)');
 		handlers.handlePost(JSON.parse(data));
 	});
 	resp.json({}).status(200);
