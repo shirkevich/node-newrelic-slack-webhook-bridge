@@ -1,5 +1,5 @@
-var express = require('express')
-	,handlers = require('./NewRelicWebhooks');
+var express = require('express'),
+	handlers = require('./NewRelicWebhooks');
 
 var app = express();
 
