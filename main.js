@@ -7,6 +7,8 @@ app.use(express.json());
 app.use(express.urlencoded());
 
 app.post('/newrelic/hook', function(req, resp){
+	console.log('received a req: ');
+	console.log(req);
 	req.on('data', function(data){
 		handlers.handlePost(JSON.parse(data));
 	});
