@@ -1,7 +1,7 @@
 var config = require('./config.json');
-var Slack = require('node-slack');
+var Slack = require('./slack');
 
-var slack = new Slack(config.slack.domain, config.slack.token);
+var slack = new Slack(config.slack.hook_url);
 
 function monitoringEvent(body){
 	var msg = '[' + body.application_name + '][' + body.severity +

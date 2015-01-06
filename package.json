@@ -24,6 +24,7 @@
   "homepage": "https://github.com/atuttle/node-newrelic-fwd-slack",
   "dependencies": {
     "express": "^3.4.8",
-    "node-slack": "0.0.3"
+    "deferred": "0.7.1",
+    "request": "~2.x"
   }
 }
